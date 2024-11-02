@@ -81,10 +81,17 @@ var newarray = ["apples","oranges","bananas","oats","mulesi","eggs"]
 // // using deep copy.
 // var deeparray = [["freecodecamp"]]
 
-// var items = ["cars","bikes","computeres"]
+// var items = ["cars","bikes","computers"]
 
 // console.log(items[0].push("this is great");
-	
+
+
+const array1 = [1,2,3,4,5]
+const shallowcopy = array1.slice()
+
+console.log(shallowcopy)
+
+
 
 
 
