@@ -86,10 +86,87 @@ var newarray = ["apples","oranges","bananas","oats","mulesi","eggs"]
 // console.log(items[0].push("this is great");
 
 
-const array1 = [1,2,3,4,5]
-const shallowcopy = array1.slice()
+// const array1 = [1,2,3,4,5]
+// const shallowcopy = array1.slice()
 
+// console.log(shallowcopy)
+// i think this is normal copy.
+const arr1 = [100,200,300]
+arr1[2] = 500
+const arr2 = arr1
+
+console.log(arr2)
+
+// shallow copy.
+const us = ["california","texas","florida","alaska"]
+// console.log(us)
+
+const ind = ["andhra","telangana","tamilnadu","kerala"]
+
+const shallowcopy = us.slice();
 console.log(shallowcopy)
+
+let buntymarks  = [100,100,200]
+let hemanthmarks = buntymarks
+// console.log(hemanthmarks)
+
+buntymarks[0] = 1000
+
+// console.log(hemanthmarks)
+
+
+// so this is called shallow copy now let us try this with objects with my brain
+
+
+let person  = {
+
+name : "hemanthkumarlingabathina",
+age  : 25,
+place : "hyderabad",
+height : "5'9 inches",
+}
+// console.log(person)
+
+
+let person2 = {
+
+name : "viratkohli",
+age : 35,
+place : "delhi",
+height : "5'9 inches",
+
+}
+
+
+let person3 = person2;
+
+console.log(person3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
