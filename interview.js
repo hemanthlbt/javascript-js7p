@@ -118,29 +118,71 @@ buntymarks[0] = 1000
 // so this is called shallow copy now let us try this with objects with my brain
 
 
-let person  = {
+// let person  = {
 
-name : "hemanthkumarlingabathina",
-age  : 25,
-place : "hyderabad",
-height : "5'9 inches",
+// name : "hemanthkumarlingabathina",
+// age  : 25,
+// place : "hyderabad",
+// height : "5'9 inches",
+// }
+// // console.log(person)
+
+
+// let person2 = {
+
+// name : "viratkohli",
+// age : 35,
+// place : "delhi",
+// height : "5'9 inches",
+
+// }
+
+
+// // let person3 = person2;
+
+// // console.log(person3)
+
+// //shallow copy using objects.
+
+// let person3 = Object.assign({}.person2);
+// console.log(person3)
+
+
+
+
+let obj1 = {
+
+name : "bunty",
+name2 : "hemanth"
 }
-// console.log(person)
 
 
-let person2 = {
+let obj2 = {
 
-name : "viratkohli",
-age : 35,
-place : "delhi",
-height : "5'9 inches",
+name3:"kumar",
+name4 : "swamy",
 
 }
 
 
-let person3 = person2;
+let obj3 = Object.assign({},obj2)
+obj3.name4 = "chetan krishna kumar reddy"
+console.log(obj3)
 
-console.log(person3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
