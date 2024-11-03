@@ -188,13 +188,59 @@ var newarray = ["apples","oranges","bananas","oats","mulesi","eggs"]
 // again trying a shallow copy with objects and try with arrays.
 
 
-// let names = ["hemanth","akhil","jayatanth","yeddi","samarth","arshad sheik"]
+// let names = ["hemanth","akhil","jayanth","yeddi","samarth","arshad sheik"]
 
 // let names2 = names
 
 // let names3  = Object.assign({},names)
 // names3[3] = "tammana"
 // console.log(names3)
+
+//using object destructuring.
+
+// let obj1 = {
+
+
+// 	name: "hemanth",
+// 	age : 53,
+// }
+
+
+// let obj2 = {...obj1}
+// obj2.age = 100;
+// console.log(obj2)
+// this is destructuring of the array with deep copy.
+// let array1 = [100,200,300,400,500,600,700]
+// array2 = {...array1}
+// array2[4] = 89
+// console.log(array2)
+
+//using slice() method.
+
+
+let obj1 = [100,200,300,400]
+obj2 = obj1.slice()
+obj2[3] = 1990;
+console.log(obj2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
