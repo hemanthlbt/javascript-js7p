@@ -91,26 +91,26 @@ var newarray = ["apples","oranges","bananas","oats","mulesi","eggs"]
 
 // console.log(shallowcopy)
 // i think this is normal copy.
-const arr1 = [100,200,300]
-arr1[2] = 500
-const arr2 = arr1
+// const arr1 = [100,200,300]
+// arr1[2] = 500
+// const arr2 = arr1
 
-console.log(arr2)
+// console.log(arr2)
 
-// shallow copy.
-const us = ["california","texas","florida","alaska"]
-// console.log(us)
+// // shallow copy.
+// const us = ["california","texas","florida","alaska"]
+// // console.log(us)
 
-const ind = ["andhra","telangana","tamilnadu","kerala"]
+// const ind = ["andhra","telangana","tamilnadu","kerala"]
 
-const shallowcopy = us.slice();
-console.log(shallowcopy)
+// const shallowcopy = us.slice();
+// console.log(shallowcopy)
 
-let buntymarks  = [100,100,200]
-let hemanthmarks = buntymarks
-// console.log(hemanthmarks)
+// let buntymarks  = [100,100,200]
+// let hemanthmarks = buntymarks
+// // console.log(hemanthmarks)
 
-buntymarks[0] = 1000
+// buntymarks[0] = 1000
 
 // console.log(hemanthmarks)
 
@@ -147,27 +147,88 @@ buntymarks[0] = 1000
 // let person3 = Object.assign({}.person2);
 // console.log(person3)
 
+// let obj1 = {
+// name : "bunty",
+// name2 : "hemanth"
+// }
+
+
+// let obj2 = {
+// name3:"kumar",
+// name4 : "swamy",
+// }
+
+
+// let obj3 = Object.assign({},obj2)
+// obj3.name4 = "chetan krishna kumar reddy"
+// console.log(obj3)
+
+// shallow copy using objects again.
+
+// let california = {
+// country : "unitedstates",
+// continent : "northamerica",
+// language :"American english",
+// population : "100m people",
+// }
+
+
+// let andhra = {
+// 	country : "India",
+// 	continent : "asia",
+// 	language : "telugu",
+// 	population : "80m people",
+// }
+
+
+// let kerala = Object.assign({},california)
+// kerala.population = "naku em telusu ra puka"
+// console.log(kerala)
+
+// again trying a shallow copy with objects and try with arrays.
+
+
+// let names = ["hemanth","akhil","jayatanth","yeddi","samarth","arshad sheik"]
+
+// let names2 = names
+
+// let names3  = Object.assign({},names)
+// names3[3] = "tammana"
+// console.log(names3)
 
 
 
-let obj1 = {
-
-name : "bunty",
-name2 : "hemanth"
-}
 
 
-let obj2 = {
-
-name3:"kumar",
-name4 : "swamy",
-
-}
 
 
-let obj3 = Object.assign({},obj2)
-obj3.name4 = "chetan krishna kumar reddy"
-console.log(obj3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
