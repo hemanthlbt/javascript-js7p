@@ -217,18 +217,62 @@ var newarray = ["apples","oranges","bananas","oats","mulesi","eggs"]
 
 //using slice() method.
 
-
-let obj1 = [100,200,300,400]
-obj2 = obj1.slice()
-obj2[3] = 1990;
-console.log(obj2)
-
+// let obj1 = [100,200,300,400]
+// obj2 = obj1.slice()
+// obj2[3] = 1990;
+// console.log(obj2)
 
 
+//slice method can also be used to shallow copy ????
+
+// let naresh = [100,200,300,400,500,600]
+
+// naresh2 = naresh.slice()
+// naresh2[3] = 8989
+// console.log(naresh2)
 
 
+// normal copy
+//shallow copy 
+// deep copy.
+
+// let arrays = [1,2,3,4,5,6,7,8,9]
+
+// arr = arrays
+
+//shallow copy ..
+
+// let arr = [100,200,300,400,500,600,700,800,900]
+// arr2 = [...arr]
+// arr2[3] = 3003
+// console.log(arr2)
+
+// deep copy.
+
+// var elements = ["pixar","disney","freamworks","toondisney"]
+
+// elements2 = Object.assign({},elements)
+// elements2[0] = "hemanth"
+// elements2[3] = "randomass"
+
+// console.log(elements2)
+
+//what is json parse and lodash method.
+
+//json .stringify
+
+let mobile = {
+name :"samsung",
+model : "s22",
+inches : "6.1 inches"
+
+}
 
 
+console.log(mobile)
+
+let nmobile = JSON.stringify(mobile)
+console.log(nmobile)
 
 
 
