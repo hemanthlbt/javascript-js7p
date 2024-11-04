@@ -261,16 +261,32 @@ var newarray = ["apples","oranges","bananas","oats","mulesi","eggs"]
 
 //json .stringify
 
-let mobile = {
-name :"samsung",
-model : "s22",
-inches : "6.1 inches"
+// let mobile = {
+// name :"samsung",
+// model : "s22",
+// inches : "6.1 inches"
 
-}
+// }
 
 
-console.log(mobile)
+// console.log(mobile)
 
-let nmobile = JSON.stringify(mobile)
-console.log(nmobile)
+// let nmobile = JSON.stringify(mobile)
+// console.log(nmobile)
+
+// let me do the stringify again so that i can sum this up.
+
+// let mobile = {name:"samsung",model:"samsung galaxy s22"};
+
+// // console.log(mobile)
+
+// let newmobile = JSON.stringify(mobile)
+// console.log(newmobile)
+// //ok now i know what jason.parse is .....i really hope it is .
+
+// let random  = JSON.parse(newmobile)
+// console.log(random)
+
+
+
 
