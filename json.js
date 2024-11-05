@@ -16,11 +16,6 @@ let ustr = JSON.parse(str)
 console.log(ustr)
 
 
-
-
-
-
-
 let emparr = [{"firstname":"hemanth","lastname":"kumar"},
 {"firstname":"esha","lastname":"namrang"},
 {"firstname":"trisha","lastname":"jawahar"},
@@ -39,16 +34,5 @@ let string = JSON.stringify(details)
 let unstring = JSON.parse(string)
 // console.log(unstring)
 
-
-
-
-
-
-
-
-
-
-
-
-
- 
+console.log("make it 12 contributions")
+console.log("i dont want to disappoint my dad")
