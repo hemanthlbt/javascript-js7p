@@ -17,4 +17,14 @@ console.log(result)
 console.log('3'+ true)
 console.log("4"+null)
 
+console.log('4'+'2')
+
+console.log("hemanth"-"kumar")
+console.log('4'-"hemanth")
+
+
+
+
+
+
 
