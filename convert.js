@@ -14,4 +14,7 @@ let number2 = "700"
 result  = "200" + 300
 console.log(result)
 
+console.log('3'+ true)
+console.log("4"+null)
+
 
