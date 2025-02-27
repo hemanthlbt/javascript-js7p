@@ -1,0 +1,13 @@
+let str = [
+	{"name":"hemanthkumarlingabathian","age":"100 years","yellow":"blue"},
+	{"name":"manneakhilraghavendra","age":"400 years","yellow":"green"},
+	{"name":"virat kohli reddy","age":"king years","yellow":"bleedblue"}
+]
+
+
+console.log(JSON.stringify(str))
+
+
+
+
+
