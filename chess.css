@@ -1,0 +1,50 @@
+@font-face {
+	font-family: apple;
+	src : url(SFPRODISPLAYREGULAR.OTF);
+}
+.container {
+	width : 800px;
+	border : 10px black;
+	display : grid;
+}
+
+
+
+
+.bunty {
+
+	height : 100px;
+	width : 100px;
+	background-color : grey;
+	border-radius : 5px;
+	position: relative;
+	left : 50px;
+
+
+
+}
+
+.t1 {
+	bottom : 60px;
+	font-family :apple;
+	position : relative;
+	left : 70px;
+	right : 10px;
+}
+
+
+.t2 {
+	height : 100px;
+	width : 100px;
+	background-color : black;
+}
+
+.t3 {
+	height : 100px;
+	width : 100px;
+
+}
+
+
+
+
