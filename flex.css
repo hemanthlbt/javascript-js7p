@@ -1,0 +1,22 @@
+.box {
+	height : 100px;
+	width : 100px;
+	border-radius: 10px;
+}
+
+
+.container{
+	font-size : 50px;
+	display : flex;
+	justify-content : flex-start;
+	border : 5px solid black;
+	height : 90vh;
+	align-items : flex-start;
+	flex-wrap : wrap;
+	align-content : flex-start;
+	column-gap : 5px;
+	row-gap : 5px;
+    }
+
+
+
