@@ -1,0 +1,25 @@
+@font-face {
+	font-family : apple;
+	src: url(SFPRODISPLAYREGULAR.OTF);
+}
+
+
+.container {
+	font-family : apple;
+	border : 5px solid black;
+	display : flex;
+	flex-direction : column;
+	justify-content : flex-start;
+/*	align-items : center;*/
+	height : 90vh;
+	flex-wrap : wrap;
+}
+
+
+
+
+
+
+
+
+
