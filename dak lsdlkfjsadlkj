@@ -1,0 +1,203 @@
+[33mcommit 6ba8931aa727dbcdee1185863979865971d1cc7f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeatures[m[33m)[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 10:42:01 2025 +0530
+
+    files added
+
+[1mdiff --git a/file.js b/file.js[m
+[1mindex 2104bd7..81446b3 100644[m
+[1m--- a/file.js[m
+[1m+++ b/file.js[m
+[36m@@ -5,4 +5,5 @@[m [mlet car3 = "lamborgini"[m
+ console.log(car1+car2+car3)[m
+ console.log("now that iv'e removed this i need to practice this again and check this if this shit os working or not")[m
+ console.log("hemanth kumar Lingabathina")[m
+[32m+[m[32mconsole.log("i need to download sonam kapoor images 4k")[m
+ [m
+
+[33mcommit 6ca9d0b5bcd9ed6bda6e2d35a11b3dae37b12fed[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 10:36:47 2025 +0530
+
+    fixed everything
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/gitignore b/gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f61eba8[m
+[1m--- /dev/null[m
+[1m+++ b/gitignore[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mmylogs.log[m
+[32m+[m
+[1mdiff --git a/mylogs.log b/mylogs.log[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8d3ea5e[m
+[1m--- /dev/null[m
+[1m+++ b/mylogs.log[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32mprocessing...[m
+[32m+[m[32mdownloading....[m
+[32m+[m[32muploading.....[m
+[32m+[m
+[32m+[m
+
+[33mcommit 4258cd54b7ef8996ed966e64e697b3fce9b508ac[m[33m ([m[1;32mmaster[m[33m)[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 00:52:20 2025 +0530
+
+    commit chey ehe
+
+[1mdiff --git a/about.js b/about.js[m
+[1mindex ce00722..91f8faf 100644[m
+[1m--- a/about.js[m
+[1m+++ b/about.js[m
+[36m@@ -1,4 +1,4 @@[m
+  console.log("mere pass panch hai")[m
+ [m
+ [m
+[31m-[m
+[32m+[m[32mkfsadkj faslkdj klfsadjlk fasjfjsalgh sdkjf iasdjgifjag hjagfdj[m
+
+[33mcommit d1396ccdb51c1d13b041a569d67e64408495a5c6[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 00:48:25 2025 +0530
+
+     i've modified this to be the best part
+
+[1mdiff --git a/about.js b/about.js[m
+[1mindex e69de29..ce00722 100644[m
+[1m--- a/about.js[m
+[1m+++ b/about.js[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m console.log("mere pass panch hai")[m
+[32m+[m
+[32m+[m
+[32m+[m
+
+[33mcommit a7efbd3f309e8070b19cefb96d095222deeee70b[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 00:46:04 2025 +0530
+
+    all
+
+[1mdiff --git a/file.js b/file.js[m
+[1mindex dfb19ca..2104bd7 100644[m
+[1m--- a/file.js[m
+[1m+++ b/file.js[m
+[36m@@ -4,4 +4,5 @@[m [mlet car3 = "lamborgini"[m
+ [m
+ console.log(car1+car2+car3)[m
+ console.log("now that iv'e removed this i need to practice this again and check this if this shit os working or not")[m
+[32m+[m[32mconsole.log("hemanth kumar Lingabathina")[m
+ [m
+
+[33mcommit f6cf12130ad36db1ed644e1f304267f4713c4b02[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 00:39:41 2025 +0530
+
+    next
+
+[1mdiff --git a/file.js b/file.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dfb19ca[m
+[1m--- /dev/null[m
+[1m+++ b/file.js[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32mlet car1 = "honda"[m
+[32m+[m[32mlet car2 = "audi"[m
+[32m+[m[32mlet car3 = "lamborgini"[m
+[32m+[m
+[32m+[m[32mconsole.log(car1+car2+car3)[m
+[32m+[m[32mconsole.log("now that iv'e removed this i need to practice this again and check this if this shit os working or not")[m
+[32m+[m
+
+[33mcommit 0871c84eac49f8591169114bc875d64250751e28[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 00:35:57 2025 +0530
+
+    i need to commit this tilll the time i go to the main thing
+
+[1mdiff --git a/file.js b/file.js[m
+[1mdeleted file mode 100644[m
+[1mindex 21bc8d2..0000000[m
+[1m--- a/file.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-let car1 = "honda"[m
+[31m-let car2 = "audi"[m
+[31m-let car3 = "lamborgini"[m
+[31m-[m
+[31m-console.log(car1+car2+car3)[m
+[31m-[m
+
+[33mcommit 851febeffe3c3f87d33812efd648de202cc04e19[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sun Jun 8 00:18:56 2025 +0530
+
+    add this to the list please
+
+[1mdiff --git a/file.js b/file.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..21bc8d2[m
+[1m--- /dev/null[m
+[1m+++ b/file.js[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32mlet car1 = "honda"[m
+[32m+[m[32mlet car2 = "audi"[m
+[32m+[m[32mlet car3 = "lamborgini"[m
+[32m+[m
+[32m+[m[32mconsole.log(car1+car2+car3)[m
+[32m+[m
+
+[33mcommit 63270267f1d45858fef0ae2fb3193f54a0b24b11[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sat Jun 7 22:53:50 2025 +0530
+
+    added iman.js
+
+[1mdiff --git a/iman.js b/iman.js[m
+[1mindex 1512c53..dc753f6 100644[m
+[1m--- a/iman.js[m
+[1m+++ b/iman.js[m
+[36m@@ -1 +1,3 @@[m
+[31m-console.log("iman esmail los angeles")[m
+[32m+[m[32mconsole.log("I really would love to have a wife like iman esmail in my life")[m
+[41m+[m
+[41m+[m
+
+[33mcommit 74bc333ab6eae24565380fff174948adef0c5165[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sat Jun 7 22:42:13 2025 +0530
+
+    pagal behen chodd
+
+[1mdiff --git a/about.js b/about.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/iman.js b/iman.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1512c53[m
+[1m--- /dev/null[m
+[1m+++ b/iman.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log("iman esmail los angeles")[m
+[1mdiff --git a/random.js b/random.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit febdfac2e3048e8ee1eec4eab0bcf6e95475af32[m
+Author: hemanthlbt <lingabathina@icloud.com>
+Date:   Sat Jun 7 22:27:18 2025 +0530
+
+    iman esmail
+
+[1mdiff --git a/index.js b/index.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c37726f[m
+[1m--- /dev/null[m
+[1m+++ b/index.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log("losangeles")[m
