@@ -22,5 +22,5 @@ var bunty = [
 ]
 
 
-console.log(JSON.stringify(bunty))
+console.log(JSON.Stringify(bunty))
 
